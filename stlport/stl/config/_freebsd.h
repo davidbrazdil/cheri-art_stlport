@@ -26,8 +26,6 @@
 // Do not use glibc, Android is missing some things.
 #undef _STLP_USE_GLIBC
 
-#define _STLP_NO_NATIVE_MBSTATE_T
-
 // No exceptions.
 #define _STLP_NO_UNCAUGHT_EXCEPT_SUPPORT 1
 #define _STLP_NO_UNEXPECTED_EXCEPT_SUPPORT 1
